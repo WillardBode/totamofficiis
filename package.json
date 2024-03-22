@@ -1,0 +1,35 @@
+{
+  "name": "totamofficiis",
+  "version": "1.0.0",
+  "description": "minify html, and any CSS or JS included in your markup",
+  "bin": {
+    "htmlminify": "./bin/htmlminify"
+  },
+  "main": "./lib/minify.js",
+  "scripts": {
+    "test": "nodeunit test/html_minify_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillardBode/totamofficiis.git"
+  },
+  "keywords": [
+    "html",
+    "impedit"
+  ],
+  "author": "JosueDeckow",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/WillardBode/totamofficiis.git/issues"
+  },
+  "dependencies": {
+    "clean-css": "~3.4.12",
+    "uglify-js": "~2.6.2",
+    "commander": "~2.9.0",
+    "iconv-lite": "~0.4.13"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9.1"
+  }
+}
